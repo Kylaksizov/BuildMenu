@@ -14,7 +14,7 @@ Query плагин для автоматического создания мен
 
 ### Инициализация плагина
 
-```html
+```js
 <script>
     $(function(){
         $("element").buildMenu();
@@ -25,7 +25,7 @@ Query плагин для автоматического создания мен
 
 ### Настройки плагина
 
-```html
+```js
 $(function(){
     $("element").buildMenu({
         menuHide: true,       // true - скрывать меню, false - не скрывать
