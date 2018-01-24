@@ -32,7 +32,7 @@ SOFTWARE.
     jQuery.fn.buildMenu = function(options){
         options = $.extend({
             
-            menuHide: true,       // true - скрывать меню, false - не скрывать
+            menuHide: true,       // true - скрывать меню, false - не скрывать // todo это тест
             speedShowMenu: 300,   // скорость появления меню
             speedHideMenu: 500,   // скорость скрытия меню
             startBuild: 50,       // сколько пикселов нужно прокрутить от верха, что бы появлялось меню?
